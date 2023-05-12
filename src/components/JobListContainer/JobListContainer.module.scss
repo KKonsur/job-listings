@@ -1,0 +1,16 @@
+.job-list {
+   width: clamp(300px, 75vw, 1200px);
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   margin: 0 auto;
+   margin-top: 4rem;
+   margin-bottom: 4rem;
+   position: relative;
+
+   @media (max-width: 720px) {
+      width: 90vw;
+      gap: 3.5rem;
+      margin-top: 6rem;
+   }
+}
